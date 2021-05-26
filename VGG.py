@@ -56,7 +56,7 @@ class VGG(nn.Module):
         return nn.Sequential(*layers) 
         
         
-''''        
+'''       
 #Basic Test
 x = torch.randn(1, 3, 224, 224)
 model = VGG()
