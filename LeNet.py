@@ -1,6 +1,7 @@
 import torch 
 import torch.nn as nn
 
+#INPUT = 1 x 32 x 32 images 
 #32 x 32 (Kernel = 5, stride = 1, padding 0) ->
 #6 x 28 x 28 (AvgPool = 2, stride = 2)->
 #6 x 14 x 14 (Kernel = 5, stride = 1, padding 0)  ->
